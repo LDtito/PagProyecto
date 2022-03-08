@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+body {
+    font-family: monospace;
+    background-image:url(../bosque.png);
+}
+body h1{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.692);
+    padding: 20px;
+    color: white;
+}
+h1 a{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+nav{
+   padding: 40px;
+   float: right;
+   width: 400px;
+}
+nav form{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border: 1px  solid #375c30c2;
+    background: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+}
+nav div p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border: 1px  solid #375c30c2;
+    background: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+}
+
+nav div p input{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border: 1px  solid #375c30c2;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.s {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/**/
+select{
+    padding: 3px;
+    font-size: 20px;
+    border: 1px  solid #375c30c2;
+    border-radius: 10px;
+}
+input {
+    border: 1px  solid #375c30c2;
+    width: 50%;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+nav form p{
+    text-align: left;
+    padding: 3px 0px 0px 100px;
+}
+
+nav form button{
+    font-size: 20px;
+    color:white;
+    background-color: #32aa426e;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+.boton1 {
+    padding: 30px 10px 10px 10px;
+}
+
+.ruc button {
+    font-size: 20px;
+    color:white;
+    background-color: #32aa426e;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    width: 40%;
+}
+
+.img1 {
+    position: absolute;
+    top: 19%;
+    left: 0%;
+    padding: 5px;
+    width: 900px;
+    border-radius: 10px;
+
+}
+
+.img2{
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 94%;
+    left: 71%;
+    padding: 5px;
+    width: 300px;
+}
+.textoa{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 81%;
+    left: 2%;
+    padding: 20px;
+    width: 800px;
+    font-size: 20px;
+}
+
+.textoh {
+    color:white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.692);
+    width: 200px;
+        position: absolute;
+        top: 12%;
+        left: 22%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.textoh a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}

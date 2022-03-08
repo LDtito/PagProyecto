@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="boletos.css">
+	<script type="text/javascript" src="boletos.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <h1><a href="../Index.html">Online Ticket</a></h1>
+        <nav>
+            <form id="f1" name="f1">
+                <h2>Adquiera su boleto ahora!</h2><br>
+                <div class="s">
+                    <select name="   " id="departamentos" onchange="cambia_departamento()">
+                        <option value="1">Ciudad de origen (Terminal)...</option>
+                        <option value="2">ATACAMES ( ATACAMES )</option>
+                        <option value="3">BORBON ( BORBON )</option>
+                        <option value="4">CARCELEN ( QUITOCARCELEN )</option>
+                        <option value="5">COCA ( COCA )</option>
+                        <option value="6">CUENCA ( CUENCA )</option>
+                        <option value="7">ESMERALDAS ( ESMERALDAS )</option>
+                        <option value="8">GUAYAQUIL ( GUAYAQUIL )</option>
+                        <option value="9">LAGO AGRIO ( LAGO AGRIO )</option>
+                        <option value="10">MANTA ( MANTA )</option>
+                        <option value="11">PORTOVIEJO ( PORTOVIEJO )</option>
+                        <option value="12">QUITUMBE ( QUITOQUITUMBE )</option>
+                        <option value="13">SAN LORENZO ( SAN LORENZO )</option>
+                        <option value="14">SANTA ELENA ( SANTA ELENA )</option>
+                    </select>
+                </div>
+                <div class="s">
+                    <select name=" " id="minucipios">
+                        <option value="0">.........................................................</option>
+                    </select>
+                </div>
+                    <p>Ida:<input type="date" id="fechaActual" value="" ></p>
+                    <p>Retorno:<input type="date" id="fechaActual" value="" ></p>
+                <div class="boton1">
+                    <button>Buscar</button>
+                </div>
+            </form>
+            <div class="ruc">
+                <br>
+                <p>¿ Desea conocer el estado de sus boletos?<br><input type="text" size="19" maxlength="16" name="A15" value="" placeholder="C.I. / RUC / Pasaporte" autocomplete="off"><button>Consultar</button></p>
+            </div>
+        </nav>
+        <h2 class="textoh"><a href="Horario y rutas/Rutas y Horarios.html">Horarios y rutas</a></h2>
+        <img src="../Buscorte.png" class="img1">
+        <p class="textoa">COMODIDAD, SEGURIDAD Y SERVICIO a nuestros pasajeros con altos estándares de servicio y flota totalmente renovada.
+        <br> Viaje con nosotros a los más bellos destinos del Ecuador.</p>
+    <img src="Tarjetas.png" class="img2">
+</body>
+</html>
