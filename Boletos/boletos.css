@@ -84,7 +84,9 @@ nav form button{
     padding: 5px 5px 5px 5px;
     width: 100%;
 }
-.boton1 {
+.boton1 a {
+    color: white;
+    text-decoration: none;
     padding: 30px 10px 10px 10px;
 }
 
@@ -112,7 +114,7 @@ nav form button{
     background-color: white;
     border-radius: 10px;
     position: absolute;
-    top: 94%;
+    top: 100%;
     left: 71%;
     padding: 5px;
     width: 300px;

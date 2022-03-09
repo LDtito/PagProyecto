@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-image:url(../../bosque.png);
+color: rgb(255, 255, 255);
+margin: 0;
+}
+header{
+background: rgba(0, 0, 0, 0.692);
+padding: 0.7rem 0rem;
+color: white;
+width: 100%;
+}  
+.barraa {
+position: relative;
+top: 527px;
+left: 0%;
+background: rgba(0, 0, 0, 0.692);
+padding: 0.7rem 0rem;
+color: white;
+width: 100%;
+clear: both;
+display: table;
+content: " ";
+position: fixed;
+}
+#ladod {
+padding-top: 0px;
+float: right;
+width: 300px;
+font-size: 20px;   
+line-height: 1.5;
+list-style: none;
+}
+#barra li{
+background-color: rgba(0, 0, 0, 0.233);
+padding: 0rem 0rem;
+border-radius: 15px;
+}
+nav ul li{
+list-style: none;
+margin-left: 40px;
+float: left;
+padding: 20px 0;
+}
+nav ul li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 20px;
+transition: all 0.5s ease;
+}
+nav li a:hover{
+padding: 1px 10px;
+color: white;
+background: rgba(0, 0, 0, 0.692);
+border-radius: 15px;
+} 
+h2{
+  padding: 10px;
+  font-size: 30px;
+  line-height: 24px;
+   }
+form{
+text-align: center;
+  line-height: 60px;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.226);
+  padding: 10px;
+  border-radius: 40px;
+  position: relative;
+  top:10px;
+  left: 35%;
+ }
+input{
+font-size: 20px;
+width: 300px;
+height: 30px;
+padding: 5px
+}
+.boton{
+  font-size: 20px;
+  color:white;
+  background-color: #32aa426e;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+}

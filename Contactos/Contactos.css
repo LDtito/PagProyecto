@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image:url(../bosque.png);
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+header{
+  background: rgba(0, 0, 0, 0.692);
+  padding: 0.7rem 0rem;
+  color: white;
+  width: 100%;
+}  
+.barraa {
+  position: relative;
+  top: 527px;
+  left: 0%;
+  background: rgba(0, 0, 0, 0.692);
+  padding: 0.7rem 0rem;
+  color: white;
+  width: 100%;
+  clear: both;
+  display: table;
+  content: " ";
+  position: fixed;
+}
+#ladod {
+  padding-top: 0px;
+  float: right;
+  width: 300px;
+  font-size: 20px;   
+  line-height: 1.5;
+  list-style: none;
+}
+#barra li{
+  background-color: rgba(0, 0, 0, 0.233);
+  padding: 0rem 0rem;
+  border-radius: 15px;
+}
+nav ul li{
+  list-style: none;
+  margin-left: 40px;
+  float: left;
+  padding: 20px 0;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+nav li a:hover{
+  padding: 1px 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.692);
+  border-radius: 15px;
+} 
+
+/*Quito*/
+.quito {
+  position: absolute;
+  top: 10%;
+  left: 0.5%;
+  padding: 30px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.quito img {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.quito h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+/*Esmeralda*/
+.esmeralda{
+  position: absolute;
+  top: 10%;
+  left: 20.5%;
+  padding: 30px 30px 220px 30px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.esmeralda img {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.esmeralda h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+/*Guayaquil*/
+.Guayaquil {
+  position: absolute;
+  top: 10%;
+  left: 40.5%;
+  padding: 30px 30px 85px 30px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.Guayaquil img {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.Guayaquil h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+
+/*Manta*/
+.Manta {
+  position: absolute;
+  top: 10%;
+  left: 60.5%;
+  padding: 30px 30px 330px 30px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.Manta img {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.Manta h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+/*Cuenca*/
+.Cuenca {
+  position: absolute;
+  top: 10%;
+  left: 80.5%;
+  padding: 30px 30px 255px 30px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.Cuenca img {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.Cuenca h2{
+  text-align: center;
+  font-size: 40px;
+}
